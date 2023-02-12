@@ -19,6 +19,10 @@ module.exports = {
       'BMO': '#29998B',
       'grass': '#6FB43F',
       'transparent' : 'rgba(0,0,0,.5)'
+    },
+    screens: {
+      'sm': '760px',
+      'md': '1024px',
     }
   },
   plugins: [],

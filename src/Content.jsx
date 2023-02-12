@@ -58,7 +58,7 @@ const Content = ({setScore,score,setMessage,setHidden,reset}) => {
     setScore(0);
   },[reset])
   return (
-    <div className='flex-[100%] px-28 py-24 grid grid-cols-4 gap-10'>
+    <div className='flex-[100%] px-28 py-24 grid sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-10 place-items-center'>
         {random.map((num,index)=>{
             const {color,name,img} = cards[num];
             return(
